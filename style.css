@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.sekundamer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.secundamer__block{
+    width : 150px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+}
+.vaqt{
+    background-color: #2987be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 150px;
+    font-size: 95px;
+}
+.time{
+    background-color: #1059b8;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+
+.korsatkichlar__wabloni{
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 250px;
+    border: 1px solid #1059b8;
+    color: #2987be;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    
+
+}
+
+.button{
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    width: 180px;
+    transition: .3s ease-in-out;
+
+}
+
+.start{
+    color: #2987be;
+
+}
+.start:hover{
+    background-color: #1059b8;
+    color: white;
+}
+.pause{
+    color: #2987be;
+
+}
+.pause:hover{
+    background-color: #1059b8;
+    color: white;
+}
+.stop{
+    color: #2987be;
+
+}
+.stop:hover{
+    background-color: #1059b8;
+    color: white;
+}
